@@ -1,45 +1,52 @@
 :root {
-  --font-size-0: 16px;
-  --font-size-1: 20px;
-  --font-size-2: 36px;
-  --font-size-3: 64px;
-  --font-weight-normal: 300;
-  --font-weight-bold: 500;
-  --line-height-0: 22px;
-  --line-height-1: 28px;
-  --line-height-2: 43px;
-  --line-height-3: 70px;
+    --font-size-0: 16px;
+    --font-size-1: 20px;
+    --font-size-2: 36px;
+    --font-size-3: 64px;
+    --font-weight-normal: 300;
+    --font-weight-bold: 500;
+    --line-height-0: 22px;
+    --line-height-1: 28px;
+    --line-height-2: 43px;
+    --line-height-3: 70px;
 
-  --br-20: 20px;
+    --br-20: 20px;
 
-  --black-3: #F7F7F8;
+    --black: #121214;
+    --black-3: #F7F7F8;
+    --white:#FFFFFF;
+    --blue-1:#5700C7;
+    --blue-2:#6700EB;
+    --blue-3:#F7F2FC;
+    --grey:#89898C;
 }
 
 html,
-
 body {
-  font-family: var(--font-geologica);
-  max-width: 1120px;
-  margin: 0 auto;
+    font-family: var(--font-geologica);
+    max-width: 1120px;
+    margin: 0 auto;
 }
 
 .fs1 {
-  font-size: var(--font-size-1);
-  font-weight: var(--font-weight-normal);
-  line-height: var(--line-height-1);
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-1);
 }
+
 .fs3plus {
-  font-size: var(--font-size-3);
-  font-weight: var(--font-weight-bold);
-  line-height: var(--line-height-3);
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-3);
 }
+
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
