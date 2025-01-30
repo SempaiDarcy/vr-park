@@ -77,7 +77,7 @@ const games: Game[] = Array(6).fill(1).map((_,index)=>{
     const id = index + 1;
     return {
         id,
-        img: `img/${id}.png`,
+        img: `/img/${id}.png`,
         type: id === 2 || id === 5 ? 'PVE' : 'PVP',
         ...data[id]
     }

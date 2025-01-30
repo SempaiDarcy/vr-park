@@ -1,0 +1,19 @@
+.gameCard {
+    background-color: var(--black-3);
+    /*width: 504px;*/
+    height: 703px;
+    border-radius: var(--br-20);
+}
+.imageWrapper {
+    position: relative;
+    height: 300px;
+}
+.img {
+    border-top-left-radius: var(--br-20);
+    border-top-right-radius: var(--br-20);
+    object-fit: cover;
+    object-position: top;
+}
+.body {
+    padding: 20px 32px 32px;
+}

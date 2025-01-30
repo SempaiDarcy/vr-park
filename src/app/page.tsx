@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import {Catalog} from "@/components/Catalog";
 
 export default async function Home() {
     const games = await fetch(process.env.url + "/api/games").then((response)=>
@@ -15,6 +16,7 @@ export default async function Home() {
                 Захватывающие игры для всех возрастов,
                 которые позволяют погрузиться в мир виртуальной реальности и стать его частью.
             </div>
+            <Catalog games={games}/>
         </div>
     );
 }
