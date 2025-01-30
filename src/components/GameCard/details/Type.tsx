@@ -1,6 +1,6 @@
 'use client'
 import React, {useMemo} from 'react';
-import styles from './Type.module.css'
+import styles from './styles.module.css'
 import {Game} from "@/interfaces";
 
 interface TypeProps {

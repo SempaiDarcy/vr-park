@@ -1,0 +1,33 @@
+.button {
+    width: 238px;
+    height: 72px;
+    border-radius: var(--br-20);
+    background-color: transparent;
+    color: var(--black);
+    border-style: solid;
+    border-width: 0;
+    padding: 20px 40px 24px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.default {
+
+}
+
+.outline {
+    border-width: 2px;
+    border-color: var(--blue-2);
+}
+
+.outline:hover {
+    border-width: 2px;
+    border-color: var(--blue-2);
+    background-color: var(--blue-3);
+}
+
+.link:hover {
+    color: var(--blue-2);
+}
