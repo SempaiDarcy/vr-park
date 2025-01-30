@@ -12,7 +12,15 @@ export interface Game {
     age: number;
     genre: string;
 }
-
+export interface GameDetails {
+    players: {
+        min: number;
+        max: number;
+    };
+    time: number;
+    age: number;
+    genre: string;
+}
 // export interface GameData {
 //     [key: number]: Game;
 // }

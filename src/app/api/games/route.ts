@@ -58,7 +58,7 @@ const data: Record<number, Omit<Game, 'id' | 'img' | 'type'>> = {
         },
         time: 60,
         age: 6,
-        genre: "Приключения"
+        genre: "Прикл"
     },
     6: {
         title: "Safe Night",
