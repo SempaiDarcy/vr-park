@@ -1,0 +1,6 @@
+.header {
+    height: 100px;
+    border-radius: var(--br-20);
+    background-color: var(--black-3);
+    margin-top: 24px;
+}
